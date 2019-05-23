@@ -214,8 +214,7 @@ $(document).ready(function() {
 				<div class="clearfix"> </div>
 			</div>
 			<div class="w3l-welcome-text">
-				<p>Consuming online is a popular way in current society which prompts the development of the economy. Reviews of products or stores of websites have a crucial influence on the purchase behavior of the public, because most of consumers decide or deny to buy after they read some positive or negative reviews. Many sellers may hire some reviewers to write fake reviews and promote the profit or crush competitors.
-				The main purpose of this application is to build a spam review classification model, using this model to predict the real reviews of Yelp restaurants, and do semantic analysis based on these comments, and summarize the corresponding business strategy.</p>
+				<p>Consuming online is a popular way in current society which prompts the development of the economy. Reviews of products or stores of websites have a crucial influence on the purchase behavior of the public, because most of consumers decide or deny to buy after they read some positive or negative reviews. Many sellers may hire some reviewers to write fake reviews and promote the profit or crush competitors. The main purpose of this application is to build a spam review classification model, which will predict the real reviews of Yelp restaurants by making semantic analysis on the customers' comments.</p>
 			</div>
 		</div>
 	</div>
@@ -258,16 +257,13 @@ $(document).ready(function() {
 			<div class="test1">
 				<table align="center">
 					<tr>
-						<td>He Zhaoxuan&emsp;&emsp;&emsp;&emsp;	</td><td>hzx1118@connect.hku.hk</td>
+						<td>Liu Min&emsp;&emsp;&emsp;&emsp;	</td><td>3035561522</td>
 					</tr>
 					<tr>
-						<td>Fung Ka Yue</td><td>u3507463@connect.hku.hk</td>
+						<td>Yang Xiaodi</td><td>3035561455</td>
 					</tr>
 					<tr>
-						<td>Li Ni</td><td>hku50724@connect.hku.hk</td>
-					</tr>
-					<tr>
-						<td>Xue Botu</td><td>u3556233@connect.hku.hk</td>
+						<td>Li Ni</td><td>3035141322</td>
 					</tr>
 				</table>
 			</div>
@@ -283,8 +279,8 @@ $(document).ready(function() {
 		</div>
 		<div>
 			<div align="center" style="margin-top: 30px">
-				<h4><strong>link: </strong><a href="http://files.grouplens.org/datasets/movielens/">MovieLens</a></h4>
-				<div style="width: 60%;margin-top: 20px" align="left">The dataset contains the information of millions of films and users, with more than hundreds of million user rating records.</div>
+				<!--<h4><strong>link: </strong><a href="http://files.grouplens.org/datasets/movielens/">MovieLens</a></h4>-->
+				<div style="width: 60%;margin-top: 20px" align="left">The dataset contains the information of more than 160 thousand reviews from different customers, half of which are fake reviews.</div>
 			</div>
 		</div>
 	</div>
@@ -375,6 +371,13 @@ $(document).ready(function() {
 				<!--<h3 align="center">Software</h3>-->
 				<table align="center">
 					<tr>
+						<td>Spam Review Classification&emsp;&emsp;&emsp;&emsp;	</td><td>Logistic Regression; SVM; Neural Network</td>
+					</tr>
+					<tr>
+						<td>Review Content Analysis</td><td>Text preprocessing; TF-IDF Model; LDA Model</td>
+					</tr>
+					<!--
+					<tr>
 						<td>Apache Spark:&emsp;&emsp;&emsp;&emsp;&emsp;	</td><td><a href="http://spark.apache.org/ ">http://spark.apache.org/</a></td>
 					</tr>
 					<tr>
@@ -385,9 +388,9 @@ $(document).ready(function() {
 					</tr>
 					<tr>
 						<td>PySpark:</td><td><a href="https://spark.apache.org/docs/2.2.1/api/python/pyspark.html">https://spark.apache.org/docs/2.2.1/api/python/pyspark.html</a></td>
-					</tr>
-				</table>
-				<!--<h3 align="center">Open-source Programmes</h3>-->
+					</tr>-->
+				<!--</table>
+				<h3 align="center">Open-source Programmes</h3>
 				<table align="center">
 					<tr>
 						<td>Elephas:&emsp;&emsp;&emsp;&emsp;&emsp;	</td><td><a href="https://github.com/maxpumperla/elephas ">https://github.com/maxpumperla/elephas</a></td>
@@ -398,7 +401,7 @@ $(document).ready(function() {
 					<tr>
 						<td>MLLib:</td><td><a href="http://spark.apache.org/mllib/">http://spark.apache.org/mllib/</a></td>
 					</tr>
-				</table>
+				</table>-->
 			</div>
 		</div>
 	</div>	
@@ -485,7 +488,98 @@ $(document).ready(function() {
 			<div class="w3-welcome-heading">
 				<h3>Schedule</h3>
 			</div>
-			<a href="https://docs.google.com/document/d/1fTQGgI6TUFnIenNZUevHeiJnHgBOHzUt0-L-4TD3Xnw/edit">Meeting Records</a>
+			<div class="agile-news-grid">
+				<table class="table table-bordered" style="text-align: center;">
+					<thead>
+					<tr>
+						<th scope="col" colspan="2">Tasks</th>
+						<th scope="col">Estimated completion time</th>
+						<th scope="col">Estimated number of learning hours</th>
+						<th scope="col">Completeness</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<th scope="row">Data Collection and Preprocessing</th>
+						<th scope="row">2019-05-20</th>
+						<th scope="row">20</th>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<th scope="row">Software Installation</th>
+						<th scope="row">2019-05-25</th>
+						<th scope="row">5</th>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<th scope="row">Web UI Design</th>
+						<th scope="row">2019-05-30</th>
+						<th scope="row">5</th>
+						<td>✓</td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<th scope="row">Spam Detection Classification Implementation</th>
+						<th scope="row">2019-06-18</th>
+						<th scope="row">70</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+						<th scope="row">Review Sentiment Analysis Implementation</th>
+						<th scope="row">2019-07-01</th>
+						<th scope="row">50</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+						<th scope="row">Unit Test and Component Integration Test</th>
+						<th scope="row">2019-07-08</th>
+						<th scope="row">10</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">7</th>
+						<th scope="row">Web UI Implementation</th>
+						<th scope="row">2019-07-20</th>
+						<th scope="row">30</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">8</th>
+						<th scope="row">System Integration Test</th>
+						<th scope="row">2019-07-23</th>
+						<th scope="row">10</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">9</th>
+						<th scope="row">Model Optimization</th>
+						<th scope="row">2019-07-28</th>
+						<th scope="row">20</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">10</th>
+						<th scope="row">Application Report</th>
+						<th scope="row">2019-07-31</th>
+						<th scope="row">10</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th>Total: 230</th>
+						<td></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<!--<a href="https://docs.google.com/document/d/1fTQGgI6TUFnIenNZUevHeiJnHgBOHzUt0-L-4TD3Xnw/edit">Meeting Records</a>-->
 			<!--<div class="agile-news-grids">
 				<div class="agile-news-grid">
 					<div class="col-md-6 agile-news-left">
@@ -594,75 +688,6 @@ $(document).ready(function() {
 					<div class="clearfix"> </div>
 				</div> 
 			</div> -->
-			<!--<div style="margin-top: 50px">
-				<div class="col-md-6">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">March 10, 13:00 - 23:30</h3>
-					</div>
-					<div class="panel-body">
-						Discussed the topic each member chose before. Chose the project topic and comleted the Terasort on 8-VMs.
-					</div>
-					<div class="panel-body">
-						All group members participated.
-					</div>
-				</div>
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<h3 class="panel-title">March 21, 17:00 - 18:30</h3>
-						</div>
-						<div class="panel-body">
-							Discussed the procedure of each member.
-						</div>
-						<div class="panel-body">
-							All group members participated.
-						</div>
-					</div>
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<h3 class="panel-title">April 5, 10:00 - 18:00</h3>
-						</div>
-						<div class="panel-body">
-							Worked on the project together.
-						</div>
-						<div class="panel-body">
-							All group members participated.
-						</div>
-					</div>
-					<div class="panel panel-info">
-						<div class="panel-heading">
-							<h3 class="panel-title">April 10, 10:00 - 16:00</h3>
-						</div>
-						<div class="panel-body">
-							Worked on the project together.
-						</div>
-						<div class="panel-body">
-							He Zhaoxuan, Xue Botu participated.
-						</div>
-					</div>
-			</div>
-				<!--<div class="col-md-6">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">March 2, 1:30 PM - 5:30 PM</h3>
-					</div>
-					<div class="panel-body">
-						Build 8-VM cluster. All group members participated.
-					</div>
-				</div>
-			</div>  -->
-				<!--<div class="col-md-6">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">March 5, 3:30 PM - 10:30 PM</h3>
-					</div>
-					<div class="panel-body">
-						Turning parameters of Spark and Hadoop. Data pre-processing. All group members participated.
-					</div>
-				</div>
-			</div>
-			</div>  -->
-
 		</div>
 	</div>
 	<!-- //Meeting Records -->
@@ -677,8 +702,11 @@ $(document).ready(function() {
 									<li>
 										<div class="testimonial-top">
 											<h1><span>Reference</span></h1>
-											<p><a href="https://github.com/vinothsadagopan/Movie-Recommendation-System-Using-Apache-Spark">Movie Recommendation System based on items/users.</a></p>
-											<p><a href="https://books.google.com.hk/books?hl=zh-TW&lr=&id=8Hc5DwAAQBAJ&oi=fnd&pg=PP1&dq=Kane,+F+2017,+Frank+Kane%27s+Taming+Big+Data+with+Apache+Spark+and+Python,+Packt+Publishing+Ltd,+Birmingham.+Available+from:+ProQuest+Ebook+Central.+%5B19+April+2019%5D.&ots=9J1HZbCcX9&sig=i5SB8oocDZvNnnxwEp-B_E7qxoU&redir_esc=y#v=onepage&q&f=false">Kane, F 2017, Frank Kane's Taming Big Data with Apache Spark and Python, Packt Publishing Ltd, Birmingham. Available from: ProQuest Ebook Central. [19 April 2019].</a></p>
+											<p><a href="www.baidu.com">Michael Crawford*, Taghi M. Khoshgoftaar, Joseph D. Prusa. Survey of review spam detection using machine learning techniques.</a></p>
+											<p><a href="www.baidu.com">Zehui Wang (wzehui), Yuzhu Zhang (arielzyz), Tianpei Qian (tianpei). Fake Review Detection on Yelp.</a></p>
+											<p><a href="www.baidu.com">Nitin Jindal and Bing Liu. Opinion Spam and Analysis.</a></p>
+											<p><a href="www.baidu.com">Arjun Mukherjee, Vivek Venkataraman, Bing Liu, and Natalie S Glance. What yelp fake review filter might be doing?</a></p>
+											<p><a href="www.baidu.com">Shebuti Rayana and Leman Akoglu. Collective opinion spam detection:bridging review networks and metadata.</a></p>
 										</div>
 									</li>
 									<!--<li>
@@ -718,12 +746,12 @@ $(document).ready(function() {
 	</div>
 	<!-- //Reference -->
 	<!-- Job division -->
-	<div class="contact" id="mail">
+	<!--<div class="contact" id="mail">
 		<div class="container">
 			<div class="w3-welcome-heading">
 				<h3>Job Division</h3>
 			</div>
-			<!--<div class="agile-contact-grids">
+			<div class="agile-contact-grids">
 				<div class="col-md-6 agile-contact-left">
 					<div class="address-grid">
 						<h4>Our Address</h4>
@@ -770,105 +798,9 @@ $(document).ready(function() {
 				</div>
 				<div class="clearfix"> </div>
 			</div>  -->
-			<!-- division table -->
-			<div class="agile-news-grid">
-				<table class="table table-bordered" style="text-align: center;">
-					<thead>
-					<tr>
-						<th scope="col" colspan="2">Division of Labour</th>
-						<th scope="col">He Zhaoxuan (Leader)</th>
-						<th scope="col">Fung Ka Yue (Member)</th>
-						<th scope="col">Li Ni (Member)</th>
-						<th scope="col">Xue Botu (Member)</th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<th scope="row" rowspan="2">Data</th>
-						<th scope="row">Data collection</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<th scope="row">Data pre-processing</th>
-						<td></td>
-						<td></td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row" rowspan="2">Spark Cluster</th>
-						<th scope="row">Architecture setup</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row">Putting data into spark system</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row" rowspan="3">Algorithm</th>
-						<th scope="row">Feature selection</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row">Supervised learning algorithm</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row">Model tuning</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row" rowspan="5">Others</th>
-						<th scope="row">Web UI Design</th>
-						<td>✓</td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<th scope="row">Preparing PPT</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row">Presentation</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					<tr>
-						<th scope="row">Writing Report</th>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-						<td>✓</td>
-					</tr>
-					</tbody>
-				</table>
-			</div>
+			<!-- division table 
 		</div>
-	</div>
+	</div>-->
 	<!-- //Job division -->
 
 	<!-- footer -->
